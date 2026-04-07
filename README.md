@@ -11,16 +11,14 @@ This repository showcases practical applications of modern AI technologies, focu
 
 ## Notebooks
 
-### 1. `prompt_engineering_netacad.ipynb` - Prompt Engineering for Classification
+### 1. `prompt_engineering.ipynb` - Prompt Engineering for Classification
 A comprehensive tutorial on using LLMs for sentiment analysis and aspect-based sentiment analysis.
 
 #### Key Features:
 - **Sentiment Analysis**: Binary classification of movie reviews
 - **Aspect-Based Analysis**: Fine-grained sentiment analysis for product features
 - **Model Comparison**: OpenAI GPT-4o vs. Groq models
-- **Evaluation Metrics**: F1-score, accuracy, confusion matrices
 - **Multimodal Capabilities**: Image description and generation with DALL-E
-- **Data Pipeline**: Complete workflow from raw data to model evaluation
 
 #### Learning Outcomes:
 - Understand prompt engineering best practices
@@ -93,7 +91,7 @@ GROQ_API_KEY=your_groq_api_key_here
 ### Running the Notebooks:
 
 1. **Start with `sma.ipynb`** for basic LLM setup and testing
-2. **Move to `prompt_engineering_netacad.ipynb`** for advanced prompt engineering
+2. **Move to `prompt_engineering.ipynb`** for advanced prompt engineering
 3. **Execute cells in order** - some cells depend on previous outputs
 4. **Monitor API usage** - LLM calls incur costs based on token usage
 
@@ -107,7 +105,7 @@ GROQ_API_KEY=your_groq_api_key_here
 
 ```
 practical_act1/
-├── prompt_engineering_netacad.ipynb  # Main prompt engineering tutorial
+├── prompt_engineering.ipynb  # Main prompt engineering tutorial
 ├── sma.ipynb                         # LLM testing and multimodal demo
 ├── pyproject.toml                    # Python project configuration
 ├── .env                              # Environment variables (create this)
